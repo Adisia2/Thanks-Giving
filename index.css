@@ -1,0 +1,100 @@
+header{
+    text-align: center;
+    background-color: rgb(245, 239, 187);
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #c71313;
+    text-size-adjust: 20;
+
+}
+
+.pastor-name{
+color: azure;
+padding: 20px;
+}
+
+.wife{
+    color: azure;
+    padding: 20px;
+}
+
+ .officials{
+    position: absolute;
+    top: 15%;
+    right: 0;
+    
+        }
+.text{
+    color: azure;
+    font-size: large;
+}
+
+.sermon{
+    position: absolute;
+  top: 15%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  transform: translateY(-50%);
+  color: aliceblue;
+            }
+.testimony{
+    position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  transform: translateY(-50%);
+  color: aliceblue;
+  
+            }
+ .prayer{
+    position: absolute;
+    top: 70%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translateY(-50%);
+    color: aliceblue;
+            }                                    
+.tithe{
+    position: absolute;
+  top: 95%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  transform: translateY(-50%);
+  color: aliceblue;
+            }
+.contacts{
+    color: azure;
+    padding: 50px;
+    
+    vertical-align: bottom;
+            }
+/* .form-floating{
+    line-height: 0.5 !important;
+    padding-left: 220px;
+    padding-right: 220px;
+} */
+textarea{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(225, 252, 243);
+    
+  }
+.form{
+    border: 0;
+    box-shadow: #791414;
+}
+button {
+    background-color: rgb(112, 109, 112);
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ button:hover {
+    background-color: rgb(145, 80, 130);
+  }

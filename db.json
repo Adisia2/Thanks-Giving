@@ -1,0 +1,36 @@
+{
+    "ramens": [
+      {
+        "id": 1,
+        "name": "pastor soNso",
+        
+        "image": "pastor soNso.png",
+        "contact":"073756476",
+        "Description": "Annointed by the blood of Jesus"
+      },
+      {
+        "id": 2,
+        "name": "pastor soNso's wife",
+        
+        "image": "pastors wife.jpeg",
+        "contact":"073756476",
+        "Description": "Companion and prayer partner of the man of God"
+      },
+      {
+        "id": 3,
+        "name": "Church bwoy",
+        
+        "image": "churchboy.jpeg",
+        "contact":"073756476",
+        "Description": "Guide of the church"
+      },
+      {
+        "id": 4,
+        "name": "secretary Holy Tasha",
+        
+        "image": "holy tasha.png",
+        "contact":"073756476",
+        "Description": "Records manager"
+      }
+    ]
+  }
