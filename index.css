@@ -6,10 +6,17 @@ header{
     text-size-adjust: 20;
 
 }
-
+#pastor-details{
+    font-size: larger;
+    color: #a9a9aa;
+    font-style: oblique;
+}
 .pastor-name{
-color: azure;
+color: rgb(211, 224, 207);
 padding: 20px;
+font-size: large;
+font-weight: 300;
+font: bolder;
 }
 
 .wife{
@@ -44,7 +51,8 @@ padding: 20px;
   right: 0;
   text-align: center;
   transform: translateY(-50%);
-  color: aliceblue;
+  color: rgb(134, 66, 54);
+  font-weight: bolder;
   
             }
  .prayer{
@@ -58,7 +66,7 @@ padding: 20px;
             }                                    
 .tithe{
     position: absolute;
-  top: 95%;
+  top: 60%;
   left: 0;
   right: 0;
   text-align: center;
@@ -97,4 +105,14 @@ button {
  }
  button:hover {
     background-color: rgb(145, 80, 130);
+  }
+  #verse{
+    
+    /* border: 0px solid black; */
+    padding: 10px;
+    width: 200px;
+    /* height: 200px; */
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(91, 108, 109);
   }

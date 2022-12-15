@@ -12,8 +12,9 @@
   
         <div class="pastor-name">
             
-            <img src="images/pastor soNso.png" width="270" height="210">
-            <div>pastor soNso</div>
+            <img id="pastorImg" src="images/pastor soNso.png" width="270" height="210">
+            <h3>pastor soNso</h3>
+            <p id="pastor-details"></p>
         </div>
         <div class="wife">
             <img src="images/pastors wife.jpeg" width="270" height="210">
@@ -25,32 +26,27 @@
                 <img src="images/holy tasha.png" width="270" height="210">
                 <div class="text">Secretary</div>
 
-                <img src="images/churchboy.jpeg" width="270" height="210">
-                <div class="text">Manager</div>
-    
+               
             </div>
         </div>
         <div class="sermon"><button>Todays Sermon</button>
-          
+         <p id="verse"></p> 
         </div>
         <div class="testimony">
             <form class="form" action="/submit-form" method="POST">
                 <label class="text" for="description">Testimony:</label><br>
                 <textarea id="description" name="description"></textarea><br>
-                <button type="submit">Submit</button>
+                <button id="submit">Submit</button>
               </form>
                
               
         </div>
-        <div class="prayer">
-            <form action="/submit-form" method="POST">
-                <label class="text" for="description">Prayer Request:</label><br>
-                <textarea id="description" name="description"></textarea><br>
-                <button type="submit">Submit</button>
-              </form>
-               
-        </div>
-        <div class="tithe">TITHE</div>
+     
+        <div class="tithe"><div id="list">
+            <h2>Testimonies</h2>
+            <div id="tasks"></div>
+            
+          </div></div>
 
       
       <section>
