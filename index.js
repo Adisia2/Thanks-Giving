@@ -20,12 +20,14 @@ function getMembers(churchObject){
   pastorDetails.addEventListener('mouseover',()=>{
     const picha=document.getElementById('pastor-details')
     picha.innerHTML="Annointed by the blood of Jesus"
+    const wife=document.getElementById('wife-details')
+    wife.innerHTML="Companion and prayer partner of the man of God"
   })
 
 const verse=document.getElementById('verse')
 const btn=document.querySelector('.sermon')
 btn.addEventListener('click',()=>{
-    verse.innerHTML="Matthew 6:26-27 26 Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they? 27 Can any one of you by worrying add a single hour to your life"
+    verse.innerHTML="Matthew 6:26-27 '26 Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they? 27 Can any one of you by worrying add a single hour to your life' "
 })
 
 const button=document.getElementById('submit')
