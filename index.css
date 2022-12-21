@@ -55,6 +55,17 @@ font: bolder;
   font-weight: bolder;
   
             }
+#tasks{
+    /* position: absolute; */
+    top: 15%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translateY(-50%);
+    color: rgb(242, 255, 240);
+
+}
+
  .prayer{
     position: absolute;
     top: 70%;
