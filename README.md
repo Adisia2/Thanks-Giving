@@ -13,3 +13,6 @@ It has the contact section to contact the church administration
 I created my own JSON server where my API fetches data and updates data
 It has details of the pastor and his wfe and the secretary. it also has the testimony which give space for it to be updated
  http://localhost:3000/churchManenos
+
+ # Limitations
+ It is a short period project that I still can't get a clear picture of what is expected but I have the idea. It might not get high recognition coz it seems like a joke.
